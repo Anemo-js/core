@@ -1,5 +1,5 @@
 import type { Config } from 'oicq';
-import type { PupPlugin } from './plugin';
+import type { AnemoPlugin } from './plugin';
 export type MainAdmin = number;
 export type AdminArray = [MainAdmin, ...number[]];
 /** 通知配置 */
@@ -43,8 +43,8 @@ export interface NoticeConf {
         transfer: boolean;
     };
 }
-/** PupBot 配置文件 */
-export interface PupConf {
+/** Anemo 配置文件 */
+export interface AnemoConf {
     /** 登录账号 */
     account: number;
     /** 登录模式，可选 password，qrcode */
@@ -61,11 +61,11 @@ export interface PupConf {
     notice: NoticeConf;
     /** 启用插件列表 */
     plugins: string[];
-    /** PupBot 日志显示等级 */
+    /** Anemo 日志显示等级 */
     log_level: Config['log_level'];
     /** oicq 相关配置 */
     oicq_config: Config;
 }
-export declare const PupConf: PupConf;
-/** 保存 PupBot 框架配置到配置文件`config.json` */
-export declare const savePupConf: (_plugins?: Map<string, PupPlugin>) => boolean;
+export declare const anemoConf: AnemoConf;
+/** 保存 Anemo 框架配置到配置文件`bot.json` */
+export declare const saveAnemoConf: (_plugins?: Map<string, AnemoPlugin>) => boolean;

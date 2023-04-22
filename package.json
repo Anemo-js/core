@@ -1,20 +1,24 @@
 {
-  "name": "anemo",
-  "version": "0.8.6",
-  "description": "Lightweight and more powerful QQ robot framework",
-  "homepage": "https://anemo-docs.pages.dev",
+  "name": "@kivibot/core",
+  "version": "0.6.3",
+  "description": "Core library for KiviBot, based on oicq v2.",
+  "repository": "KiviBotLab/KiviBot",
+  "homepage": "https://beta.kivibot.com/",
   "main": "lib/index.js",
   "keywords": [
+    "oicq",
     "oicq2",
-    "anemo"
+    "kivibot"
   ],
-  "author": "Lisk <Liutsian_Lisk@126.com> (https://github.com/Lisk809)",
-  "license": "MIT",
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MPL-2.0",
+  "prettier": "@vikiboss/prettier-config",
   "scripts": {
     "dev": "npm run clean && tsc && concurrently \"tsc -w\" \"tsc-alias -w\"",
     "build": "npm run clean && tsc && tsc-alias",
     "release": "npm run build && npm publish --access public",
     "lint": "eslint --ext .js,.json,.ts, .",
+    "lint:fix": "eslint --fix --ext .js,.json,.ts, .",
     "clean": "rimraf lib"
   },
   "files": [

@@ -1,5 +1,5 @@
 import type { Client } from 'oicq';
-import type { PupConf } from '../config';
-import type { PupPlugin } from './plugin';
+import type { AnemoConf } from '@/config';
+import type { AnemoPlugin } from './plugin';
 /** 通过插件路径禁用单个插件  */
-export declare function disablePlugin(bot: Client, PupConf: PupConf, plugin: PupPlugin, pluginPath: string): Promise<string | true>;
+export declare function disablePlugin(bot: Client, anemoConf: AnemoConf, plugin: AnemoPlugin, pluginPath: string): Promise<boolean>;

@@ -17,4 +17,3 @@ export declare const colors: {
     /** 白色前景（默认背景） */
     white: (msg: string) => string;
 };
-export declare function escapeColor(colorText: string): string;
