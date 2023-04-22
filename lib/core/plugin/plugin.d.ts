@@ -2,7 +2,7 @@
 import EventEmitter from 'node:events';
 import fs from 'fs-extra';
 import type { Client, DiscussMessageEvent, EventMap, GroupMessageEvent, PrivateMessageEvent } from 'oicq';
-import type { AdminArray } from '@/config';
+import type { AdminArray } from '../config';
 import type { Logger } from 'log4js';
 import type { ScheduledTask } from 'node-cron';
 export type AnyFunc = (...args: any[]) => any;

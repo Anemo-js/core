@@ -1,18 +1,20 @@
 {
-  "name": "@kivibot/core",
-  "version": "0.6.3",
-  "description": "Core library for KiviBot, based on oicq v2.",
-  "repository": "KiviBotLab/KiviBot",
-  "homepage": "https://beta.kivibot.com/",
+  "name": "anemo-core",
+  "version": "1.0.0",
+  "description": "Core library for Anemo, based on oicq v2, inherit from KiviBot.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anemo-js/core.git"
+  },
+  "homepage": "https://anemo-docs.pages.dev/",
   "main": "lib/index.js",
   "keywords": [
     "oicq",
     "oicq2",
     "kivibot"
   ],
-  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
-  "license": "MPL-2.0",
-  "prettier": "@vikiboss/prettier-config",
+  "author": "Lisk <liskqwq@gmail.com> (https://github.com/lisk809)",
+  "license": "MIT",
   "scripts": {
     "dev": "npm run clean && tsc && concurrently \"tsc -w\" \"tsc-alias -w\"",
     "build": "npm run clean && tsc && tsc-alias",
@@ -47,7 +49,6 @@
     "@types/node": "^18.11.9",
     "@types/node-cron": "^3.0.6",
     "@types/prompts": "^2.4.1",
-    "@vikiboss/prettier-config": "^0.2.1",
     "concurrently": "^7.5.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
@@ -57,5 +58,12 @@
     "rimraf": "^3.0.2",
     "tsc-alias": "^1.7.1",
     "typescript": "^4.9.3"
+  },
+  "types": "./lib/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/Anemo-js/core/issues"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
