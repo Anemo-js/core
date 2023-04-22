@@ -1,2 +1,2 @@
 /** KiviBot LOGO */
-export declare const LOGO: string;
+export declare const LOGO = "\n      _/_/\n   _/    _/  _/_/_/      _/_/    _/_/_/  _/_/      _/_/\n  _/_/_/_/  _/    _/  _/_/_/_/  _/    _/    _/  _/    _/\n _/    _/  _/    _/  _/        _/    _/    _/  _/    _/\n_/    _/  _/    _/    _/_/_/  _/    _/    _/    _/_/\n";
