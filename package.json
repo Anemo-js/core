@@ -1,6 +1,6 @@
 {
   "name": "anemo-core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Core library for Anemo, based on oicq v2, inherit from KiviBot.",
   "repository": {
     "type": "git",
