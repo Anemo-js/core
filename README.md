@@ -1,16 +1,16 @@
-# @kivibot/core
+# anemo-core
 
-[![npm (scoped)](https://img.shields.io/npm/v/@kivibot/core?color=527dec&label=%40kivibot%2Fcore&style=flat-square)](https://www.npmjs.com/package/@kivibot/core)
-[![dm](https://shields.io/npm/dm/@kivibot/core?style=flat-square)](https://www.npmjs.com/package/@kivibot/core)
-[![node engine](https://img.shields.io/node/v/@kivibot/core/latest.svg?style=flat-square)](https://nodejs.org)
-[![discord](https://img.shields.io/static/v1?label=chat&message=on%20discord&color=7289da&logo=discord&style=flat-square)](https://discord.gg/RegGQD3Fu6)
+[![node engine](https://img.shields.io/node/v/anemo-core/latest.svg?style=flat-square)](https://nodejs.org)
+![node-current](https://img.shields.io/node/v/anemo-core)
 
-> `@kivibot/core` is the core library for `KiviBot`.
+![npm type definitions](https://img.shields.io/npm/types/anemo-core)
+![npm](https://img.shields.io/npm/dm/anemo-core)
+[![qq](https://img.shields.io/badge/qq-809310030-blue)](https://qm.qq.com/cgi-bin/qm/qr?k=nL_lgOP9qmDn_Cc8z_mGEng3E-ZhUOuk&authKey=mn8UgdFU9GeADZscuJK2R8TzHdsgDvHjnSsm//R3tc5QS1nqIyGbf2ECiIh5xbDn&noverify=0&personal_qrcode_source=0)
 
-KiviBot is a lightweight cross-platform Tencent QQ robot frame, powered by `Node.js` & `oicq2`. It is still in the test stage, and there may be many bugs. Documentation for it is also being improved, so stay tuned. Head to official documentation for more details: [KiviBot Beta Documentation (WIP)](https://beta.kivibot.com/)
+> A Simple and more powerful QQ robot framework
 
 ## 介绍
 
-`KiviBot` 是使用 [TypeScript](https://www.typescriptlang.org/) 编写的**轻量**、**跨平台**的 QQ 机器人框架。
+`Anemo` 一词来自希腊语中的 `风` 一词，象征着框架的轻量与诗意，也饱含开发者的热忱，框架使用[TypeScript](https://www.typescriptlang.org/)
 
-详情参考使用文档: https://beta.kivibot.com/
+详情参考使用文档: https://anemo-docs.pages.dev/
